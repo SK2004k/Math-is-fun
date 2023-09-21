@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(174, 229, 249);
+}
+.panel{
+    background-color: aliceblue;
+    height: 75%;
+    width: 75%;
+    margin: 0% 10% 10% 10%;
+    border-radius: 10px;
+}
+.panel .life{
+    display: flex;
+}
+.panel .ptop{
+    width: 100%;
+    height: 10%;
+    padding: 0px 20%;
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.panel .ptop .pborder{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.panel .ptop .pborder .box{
+    background-color: aliceblue;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.panel .pbody{
+    height: 40%;
+    width: 60%;
+    display: flex;
+    background-color: rgb(101, 254, 254);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script' , cursive;
+    font-size: 50px;
+    margin: 5% 10% 5% 20%;
+}
+.panel .poptions{
+    height: 40%;
+    width: 100%;
+    background-color: rgb(51, 51, 249);
+    display: flex;
+    /* gap: 5px; */
+}
+.panel .poptions .option{
+    height: 30%;
+    width: 20%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script' , cursive;
+    font-size: 30px;
+}
+.panel .poptions #op1{
+    margin: 10% 5%;
+}
+.panel .poptions #op2{
+    margin: 10% 5%;
+}
+.panel .poptions #op3{
+    margin: 10% 5%;
+}
+.panel .poptions #op4{
+    margin: 10% 5%;
+}
